@@ -1,0 +1,146 @@
+/* OpenSansRegular */
+@font-face {
+    font-family: 'OpenSans';
+    font-display: swap;
+      font-style: normal;
+      font-weight: 400;
+      src: local(''),
+      url('/fonts/OpenSansRegular.woff2')format('woff2'), /* Super Modern Browsers */
+      url('/fonts/OpenSansRegular.woff')format('woff'); /* Modern Browsers */
+}
+
+/* OpenSansBold */
+@font-face {
+  font-family: 'OpenSans';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+      url('/fonts/OpenSansBold.woff2')format('woff2'), /* Super Modern Browsers */
+      url('/fonts/OpenSansBold.woff')format('woff'); /* Modern Browsers */
+}
+
+html {
+    font-family: 'OpenSans', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: black;
+}
+
+h1, h2, h3, h4, p {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1326px;
+}
+
+.orange {
+    color: #ff7a00;
+}
+
+/* how-it-works */
+.how-it-works {
+    padding-top: 60px;
+    padding-bottom: 42px;
+    background-color: #fff6ed;
+}
+
+.how-it-works__header {
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 55px;
+}
+
+.how-it-works__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.how-it-works__item {
+    max-width: 375px;
+}
+
+.how-it-works__icon {
+    margin-bottom: 21px;
+}
+
+.how-it-works__min-header {
+    margin-bottom: 6px;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+}
+
+/* integration */
+.integration__container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.integration__bg-icon {
+    position: absolute;
+    top: -108px;
+    right: 112px;
+    width: 550px;
+    height: 550px;
+}
+
+.integration__left {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 600px;
+}
+
+.integration__heading {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 54px;
+}
+
+.integration__right {
+    position: relative;
+    display: flex;
+    z-index: 1;
+    width: 500px
+}
+
+.integration__item {
+    width: 70px;
+    height: 70px;
+}
+
+.integration__item:nth-child(1){
+    margin-bottom: 30px;
+}
+
+.integration__icon{
+    width: 70px;
+    height: 70px;
+}
+
+
+.integration__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+

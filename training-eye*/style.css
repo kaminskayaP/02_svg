@@ -1,0 +1,36 @@
+.stop1{
+    stop-color: #e7d688;
+}
+
+.stop2{
+    stop-color: #e66465;
+}
+
+.stop3{
+    stop-color: #9198e5;
+}
+
+svg {
+    stroke: url(#Gradient1);
+    stroke: linear-gradient(#e66465, #9198e5); 
+    stroke-width: 10;
+    stroke-dasharray: 0 550; 
+    
+}
+
+svg{
+    animation: dasharray 5s linear alternate;
+    animation-iteration-count: infinite;
+    -moz-animation-iteration-count:infinite;
+    -webkit-animation-iteration-count:infinite;
+}
+
+svg path {
+    fill: transparent;
+}
+
+@keyframes dasharray {
+    100% {
+        stroke-dasharray: 500 0;
+    }
+}
